@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--第一屏开始-->
+      <div class="swiper-slide one">
+        <div class="beijing">
+          <img class="beijing1 ani" src="img/beijing.png" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" alt="">
+          <img class="beijing2" src="img/beijing.gif" alt="">
+        </div>
+        <div class="biankuang">
+          <img class="ani" src="img/biankuang.png" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2.5s"  alt="">
+        </div>
+        <div class="yaoqinghan">
+        <img class="yaoqinghantupian ani" src="img/yaoqinghan.png" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="3.5s" alt="">
+        </div>
+        <div class="huizhanzhongxin ani" src="img/yaoqinghan.png" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="5s">
+          <p>2017.12.08会展中心</p>
+        </div>
+        <div class="ruongyao ani" src="img/yaoqinghan.png" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="6s">
+          <p>荣耀开幕</p>
+        </div>
+        <div class="invation ani" src="img/yaoqinghan.png" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="7s">
+          <p>INVIATION</p>
+        </div>
+      </div>
+        <!--第一屏结束-->
+        <!--第二屏开始-->
+      <div class="swiper-slide two">
+        <div class="sum">
+          <img class="beijing1 ani" src="img/beijing.png" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" alt="">
+          <img class="beijing2" src="img/beijing.gif" alt="">
+        </div>
+        <div class="liucheng ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1.5s">
+          <h3>[ 活动流程 ]</h3>
+          <span>上午</span>
+          <p class="p1">9:00-9:10 大会开始发言</p>
+          <p class="p2">9:00-9:10 各分区代表人发言</p>
+          <p class="p3">9:00-9:10 会议讨论</p>
+          <p class="p4">9:00-9:10 会议主旨再定</p>
+          <span class="span">下午</span>
+          <p class="p5">9:00-9:10 大会开始发言</p>
+          <p class="p6">9:00-9:10 各分区代表人发言</p>
+          <p class="p7">9:00-9:10 会议讨论</p>
+          <p class="p8">9:00-9:10 会议主旨再定</p>
+        </div>
+      </div>
+        <!--第二屏结束-->
+        <!--第三屏开始-->
+      <div class="swiper-slide flas">
+        <div class="str">
+          <img class="beijing1 ani" src="img/beijing.png" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" alt="">
+          <img class="beijing2" src="img/beijing.gif" alt="">
+        </div>
+      </div>
+        <!--第三屏结束-->
+        <!--第四屏开始-->
+      <div class="swiper-slide fiste">
+        <div class="num">
+          <img class="beijing1 ani" src="img/beijing.png" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" alt="">
+          <img class="beijing2" src="img/beijing.gif" alt="">
+        </div>
+        <div class="baoming">
+          <h2>[ 报名参加 ]</h2>
+          <input type="text" placeholder="姓名*" style="border-radius: 15px;margin-bottom: 5%;padding-left: 20px;">
+          <input type="text" placeholder="电话*" style="border-radius: 15px;margin-bottom: 5%;padding-left: 20px;">
+          <input type="text" placeholder="人数*" style="border-radius: 15px;margin-bottom: 5%;padding-left: 20px;">
+          <button style="border-radius: 15px;">提交</button>
+        </div>
+      </div>
+        <!--第四屏结束-->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-next">
+
+    </div>
+  </div>
+   <!--音乐开始部分-->
+  <div id="music">
+      <img class="musicImg" src="img/index.png" alt="">
+      <audio src="img/ed1f942c5db28b8a15ea2c6c1a49f7f9.mp3" autoplay loop></audio>
+  </div>
+  <!--音乐结束部分-->
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/swiper.animate1.0.2.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

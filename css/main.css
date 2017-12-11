@@ -1,0 +1,344 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+/*第一屏开始*/
+.swiper-slide.one{
+    background: url("../img/dabeijing.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.one .beijing{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.beijing .beijing1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.beijing .beijing2{
+    width: 100%;
+    position: absolute;
+    top:15%;
+    left:0;
+}
+.biankuang{
+    width: 60%;
+    height: 50%;
+    margin:0 auto;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.biankuang img{
+    width: 100%;
+}
+.swiper-slide.one .yaoqinghan{
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 35%;
+    left:20%;
+}
+.yaoqinghan .yaoqinghantupian{
+    width: 90%;
+    height: 60%;
+}
+.huizhanzhongxin{
+    width: 60%;
+    height: 5%;
+    margin:0 auto;
+    margin-top: 30%;
+}
+.huizhanzhongxin p{
+    font-size: 15px;
+    color: white;
+}
+.ruongyao{
+    width: 60%;
+    height: 5%;
+    margin:0 auto;
+    margin-top:-5%;
+}
+.ruongyao p{
+    font-size: 25px;
+    color: white;
+    font-family:"楷体";
+}
+.invation{
+    width: 60%;
+    height: 5%;
+    margin:0 auto;
+}
+.invation p{
+    color: white;
+    font-family:"Arial";
+    letter-spacing:5px;
+}
+    /*第一屏结束*/
+/*第二屏开始*/
+.swiper-slide.two{
+    background: url("../img/dabeijing.jpg");
+    background-size: 100% 100%;
+}
+.sum{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.sum .beijing1{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+.sum .beijing2{
+    width: 100%;
+    position: absolute;
+    top:15%;
+    left:0;
+}
+.liucheng{
+    width: 70%;
+    height: 60%;
+    margin:0 auto;
+    margin-top: -40%;
+    background: rgba(0, 0, 0, 0.45);
+    /*border:2px solid white ;*/
+    position: relative;
+}
+.liucheng h3{
+    position: absolute;
+    top: -5%;
+    left:20%;
+    font-size: 25px;
+    color: white;
+}
+.liucheng span{
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+}
+.liucheng .p1{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.liucheng .p2{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 21%;
+    left: 10%;
+}
+.liucheng .p3{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+.liucheng .p4{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.liucheng .span{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+.liucheng .p5{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 10%;
+}
+.liucheng .p6{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top:64%;
+    left: 10%;
+}
+.liucheng .p7{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.liucheng .p8{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 10%;
+}
+
+    /*第二屏结束*/
+/*第三屏开始*/
+.swiper-slide.flas{
+    background: url("../img/dabeijing.jpg");
+    background-size: 100% 100%;
+}
+.str{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.str .beijing1{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+.str .beijing2{
+    width: 100%;
+    position: absolute;
+    top:15%;
+    left:0;
+}
+/*第三屏结束*/
+/*第四屏开始*/
+.swiper-slide.fiste{
+    background: url("../img/dabeijing.jpg");
+    background-size: 100% 100%;
+}
+.num{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.num .beijing1{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+.num .beijing2{
+    width: 100%;
+    position: absolute;
+    top:15%;
+    left:0;
+}
+.baoming{
+    width: 80%;
+    height: 50%;
+    /*border:2px solid white;*/
+    margin:0 auto;
+    margin-top: -50%;
+}
+.baoming h2{
+    color: white;
+}
+.baoming input[type="text"]{
+    width: 80%;
+    height: 12%;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid #007aff;
+}
+.baoming button{
+    width: 87%;
+    height: 15%;
+    font-size: 20px;
+    color: #fff;
+    background: #007aff;
+    border:0 solid #007aff;
+}
+/*第四屏结束*/
+/*音乐开始部分*/
+#music{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right:10px;
+    top:10px;
+    z-index: 9;
+}
+.musicbg{
+    width: 60px;
+    height: 60px;
+}
+#music .musicImg{
+    position: absolute;
+    right:8px;
+    top: 8px;
+    animation: box 2s linear infinite;
+}
+@keyframes box {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/*音乐结束部分*/
+/*如果需要导航按钮*/
+.swiper-button-next{
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    top:auto;
+    right: 40%;
+    bottom:1%;
+    background: url("../img/up.png");
+    animation: bo 1.5s 0.5s linear infinite;
+}
+@keyframes bo {
+    from{
+        bottom: 1%;
+        opacity: 1;
+    }
+    to{
+        bottom: 4%;
+        opacity:0;
+    }
+}
