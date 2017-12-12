@@ -243,6 +243,10 @@ body {
     top:15%;
     left:0;
 }
+.jietu{
+    margin:0 auto;
+
+}
 /*第三屏结束*/
 /*第四屏开始*/
 .swiper-slide.fiste{
@@ -286,11 +290,30 @@ body {
 }
 .baoming button{
     width: 87%;
-    height: 15%;
+    height: 13%;
     font-size: 20px;
     color: #fff;
     background: #007aff;
     border:0 solid #007aff;
+    outline: none;
+}
+.erweima{
+    width: 70%;
+    height: 20%;
+    margin:0 auto;
+    position: relative;
+}
+.erweima img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.erweima span{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 57%;
+    font-size: 20px;
 }
 /*第四屏结束*/
 /*音乐开始部分*/
