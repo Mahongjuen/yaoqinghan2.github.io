@@ -150,7 +150,7 @@ body {
 .dierping .jianli{
     color: #fff;
     font-size: 30px;
-    padding:0 0 15px 0;
+    padding:0 0 10px 0;
 }
 .dierping .dierping-yi{
     color: #fff;
@@ -161,7 +161,7 @@ body {
     color: #fff;
     font-size: 15px;
     text-align: left;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 /*第二屏结束*/
 /*第三屏开始*/
@@ -200,7 +200,7 @@ body {
 .disanping .tese{
     color: #fff;
     font-size: 30px;
-    padding:0 0 15px 0;
+    padding:0 0 10px 0;
 }
 .disanping .span{
     color: red;
@@ -210,19 +210,19 @@ body {
 .disanping .shoufei{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 .disanping .peiyang{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 .disanping .jiuye{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 /*第三屏结束*/
@@ -262,7 +262,7 @@ body {
 .disiping .tese{
     color: #fff;
     font-size: 30px;
-    padding:10px 0;
+    padding:5px 0;
 }
 .disiping .span{
     color: red;
@@ -272,19 +272,19 @@ body {
 .disiping .shoufei{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 .disiping .peiyang{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 .disiping .jiuye{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 /*第四屏结束*/
@@ -324,7 +324,7 @@ body {
 .diwuping .tese{
     color: #fff;
     font-size: 30px;
-    padding:10px 0;
+    padding:5px 0;
 }
 .diwuping .span{
     color: red;
@@ -334,19 +334,19 @@ body {
 .diwuping .shoufei{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 .diwuping .peiyang{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 .diwuping .jiuye{
     color: #fff;
     text-align: left;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 15px;
 }
 /*第五屏结束*/
