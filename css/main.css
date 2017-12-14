@@ -139,7 +139,7 @@ body {
 }
 .dierping{
     width: 80%;
-    height: 70%;
+    height: 60%;
     background: rgba(0, 0, 0, 0.54);
     /*border:2px solid white;*/
     margin:0 auto;
@@ -154,12 +154,12 @@ body {
 }
 .dierping .dierping-yi{
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
 }
 .dierping .dierping-er{
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     margin-top: 5%;
 }
@@ -210,17 +210,20 @@ body {
 .disanping .shoufei{
     color: #fff;
     text-align: left;
-    padding: 15px 0;
+    padding: 10px 0;
+    font-size: 15px;
 }
 .disanping .peiyang{
     color: #fff;
     text-align: left;
-    padding: 15px 0;
+    padding: 10px 0;
+    font-size: 15px;
 }
 .disanping .jiuye{
     color: #fff;
     text-align: left;
-    padding: 15px 0;
+    padding: 10px 0;
+    font-size: 15px;
 }
 /*第三屏结束*/
 /*第四屏开始*/
@@ -270,16 +273,19 @@ body {
     color: #fff;
     text-align: left;
     padding: 10px 0;
+    font-size: 15px;
 }
 .disiping .peiyang{
     color: #fff;
     text-align: left;
     padding: 10px 0;
+    font-size: 15px;
 }
 .disiping .jiuye{
     color: #fff;
     text-align: left;
     padding: 10px 0;
+    font-size: 15px;
 }
 /*第四屏结束*/
 /*第五屏开始*/
@@ -329,16 +335,19 @@ body {
     color: #fff;
     text-align: left;
     padding: 10px 0;
+    font-size: 15px;
 }
 .diwuping .peiyang{
     color: #fff;
     text-align: left;
     padding: 10px 0;
+    font-size: 15px;
 }
 .diwuping .jiuye{
     color: #fff;
     text-align: left;
     padding: 10px 0;
+    font-size: 15px;
 }
 /*第五屏结束*/
 /*第六屏开始*/
@@ -585,7 +594,7 @@ body {
 /*音乐结束部分*/
 /*如果需要导航按钮*/
 .swiper-button-next{
-    width: 15%;
+    width: 16%;
     height: 5%;
     position: absolute;
     top:auto;
